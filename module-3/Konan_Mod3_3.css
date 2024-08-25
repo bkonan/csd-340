@@ -1,0 +1,83 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Centering the Title */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+/* Container Styling */
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Left and Right Div Styling */
+#left-div, #right-div {
+    width: 45%;
+    vertical-align: top;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+/* Left Div Margin */
+#left-div {
+    margin-right: 4%;
+}
+
+/* Right Div Margin */
+#right-div {
+    margin-left: 4%;
+}
+
+/* Styling for the h3 Tags */
+h3 {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* Ordered List Styling */
+ol {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+/* Unordered List Styling */
+ul {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+
+#container div:last-child {
+    width: 100%;
+    margin-top: 30%;
+    float: left;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+/* Styling for Links */
+a {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
