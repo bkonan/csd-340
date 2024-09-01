@@ -3,8 +3,12 @@
 #image-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    
     margin-top: 10%;
+}
+#image-gallery div {
+    border: 1px solid #A1501E ; /* Optional: Adds a border around each div */
+    padding: 10px; /* Optional: Adds some padding inside each div */
 }
 
 h1 {
