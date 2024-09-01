@@ -1,0 +1,44 @@
+
+/* Other CSS code */
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10%;
+}
+
+h1 {
+    text-align: center;
+    color: #A1501E;
+}
+
+h3 {
+    text-align: center;
+    color: #A1501E;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+    color: #A1501E;
+}
+
+.back-link {
+    position: fixed;
+    bottom: 30px;
+    right: 80px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.book-cover {
+    width: 300px;  /* Set the desired width */
+    height: 400px; /* Set the desired height */
+    object-fit: cover;  /* Ensure the image fits within the given dimensions */
+    border: 1px solid #ccc;  /* Optional: add a border for a polished look */
+}
