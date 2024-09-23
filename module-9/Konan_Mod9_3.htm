@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CSD 340 Web Development with HTML and CSS">
+    <meta name="keywords" content="HTML, CSS, Web Development">
+    <meta name="author" content="Botiwa Konan">
+    <meta name="robots" content="index, follow">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" href="../module-2/Konan_Mod2_2.css">
+    <script>
+        // JavaScript Variables holding the words
+        var word1 = "knight";
+        var word2 = "hero";
+        var word3 = "explorer";
+        var word4 = "dragon";
+
+        // Functions to replace the underscores with the words
+        function fillWord1() {
+            document.getElementById("span1").textContent = word1;
+        }
+
+        function fillWord2() {
+            document.getElementById("span2").textContent = word2;
+        }
+
+        function fillWord3() {
+            document.getElementById("span3").textContent = word3;
+        }
+
+        function fillWord4() {
+            document.getElementById("span4").textContent = word4;
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+        <p>There once was a <span id="span1">____________</span> in a land far away.
+         Every day, the <span id="span2">____________</span> would venture into the forest in search of the magical tree.
+          One day, the <span id="span3">____________</span> found the tree, but it was guarded by a fierce <span id="span4">____________</span>.
+        </p>
+
+        <!-- Buttons to replace the underscores -->
+        <button onclick="fillWord1()">Fill Word 1</button>
+        <button onclick="fillWord2()">Fill Word 2</button>
+        <button onclick="fillWord3()">Fill Word 3</button>
+        <button onclick="fillWord4()">Fill Word 4</button>
+
+        <hr />
+        <address>
+            <p><a href="https://www.bellevue.edu" target="_blank">Bellevue University</a></p>
+            <p>1000 Galvin Road South</p>
+            <p>Bellevue, NE 68005</p>
+        </address>
+    </div>
+</body>
+</html>
